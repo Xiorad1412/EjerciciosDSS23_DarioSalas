@@ -8,6 +8,16 @@ Se ha usado ChatGPT como apoyo e inspiración para el desarrollo del código.
 
 #Ejercicio 2
 
+Para la realización de este ejercicio, he seguido un tutorial otorgado por ChatGPT sobre cómo solucionar el problema de devolver un parámetro de salida de tipo Object haciendo uso de generics de Java, y por tanto haciendo uso de la inversión de dependencias.
+
+El código resultante es el que se encuentra en KnightOfTheRoundTableA.
+
+Para el apartado B, hemos seguido también un tutorial de chatGPT para crear un proyecto Maven con Spring Boot, añadiendo como beans de Spring las clases holyGrailQuest y knightOfTheRoundTable. Hemos hecho esto añadiendo un fichero .xml en KnightOfTheRoundTable\src\main\resources donde se le indica que esas clases son beans. También hemos indicado en el application.PROPERTIES que este era un fichero de contexto para el sistema.
+
+A continuación, hemos creado las interfaces y las clases que implementan por un lado las interfaces del dominio del problema y por otro las que implementan la FactoryBean de Spring, como QuestFactoryBean.
+
+Este proyecto se encuentra en KnightOfTheRoundTableB.
+
 #Ejercicio 3
 
 ## Apartado a
