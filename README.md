@@ -1,5 +1,15 @@
 # EjerciciosDSS23_DarioSalas
 
+#Ejercicio 1
+
+Se adjunta el código completo del ejercicio 1, incluyendo una clase que simula una tarjeta de crédito, una función main para probarla y un fichero CreditCardTest con tests que prueban los métodos de la clase, hecho en junit 4.13.2.
+
+Se ha usado ChatGPT como apoyo e inspiración para el desarrollo del código.
+
+#Ejercicio 2
+
+#Ejercicio 3
+
 ## Apartado a
 
   La explicación de la secuencia de acciones que se llevan a cabo para resolver el problema se encuentra en el apartado (b). Recomiendo su lectura antes de proceder con las apreciaciones siguientes.
