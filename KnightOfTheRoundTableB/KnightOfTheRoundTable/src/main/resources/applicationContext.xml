@@ -1,0 +1,8 @@
+<bean id="holyGrailQuest" class="com.example.QuestFactoryBean">
+    <constructor-arg value="com.example.HolyGrailQuest" />
+</bean>
+
+<bean id="knightOfTheRoundTable" class="com.example.KnightOfTheRoundTable">
+    <constructor-arg value="Sir Lancelot" />
+    <constructor-arg ref="holyGrailQuest" />
+</bean>
