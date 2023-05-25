@@ -1,12 +1,12 @@
 # EjerciciosDSS23_DarioSalas
 
-#Ejercicio 1
+# Ejercicio 1
 
 Se adjunta el código completo del ejercicio 1, incluyendo una clase que simula una tarjeta de crédito, una función main para probarla y un fichero CreditCardTest con tests que prueban los métodos de la clase, hecho en junit 4.13.2.
 
 Se ha usado ChatGPT como apoyo e inspiración para el desarrollo del código.
 
-#Ejercicio 2
+# Ejercicio 2
 
 Para la realización de este ejercicio, he seguido un tutorial otorgado por ChatGPT sobre cómo solucionar el problema de devolver un parámetro de salida de tipo Object haciendo uso de generics de Java, y por tanto haciendo uso de la inversión de dependencias.
 
@@ -18,7 +18,7 @@ A continuación, hemos creado las interfaces y las clases que implementan por un
 
 Este proyecto se encuentra en KnightOfTheRoundTableB.
 
-#Ejercicio 3
+# Ejercicio 3
 
 ## Apartado a
 
