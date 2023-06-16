@@ -40,7 +40,7 @@ Otra solución sería que el receiver fuese un parámetro del método execute() 
   Es vital recordar que, al igual que indicamos el formulario o el receiver para los comandos específicos, al llamar al método sendResults() de los receiver específicos hay que indicarles los datos que hay que enviar, que se han obtenido al procesar el formulario. Esto se haría pasando estos datos como parámetros de entrada del método. Aunque este parámetro esté representado en el diagrama como una variable de tipo String, a la hora de implementarlo deberíamos de usar un Optional<String> (u Optional<T>, siendo T el tipo que representa los datos contenidos en el formulario), para contemplar la posibilidad de que el formulario no necesite pasarle datos adicionales al componente logístico que recibirá la notificación, sino que con esta notificación ya sería suficiente. En estos casos, el método setResults() del receiver pondría el valor del Optional a “Vacío”.
 
 
-![EjercicioPatronesDSS23-Página-1](https://github.com/Xiorad1412/EjerciciosDSS23_DarioSalas/assets/101283806/048ad72a-0cb9-4a70-a96c-90db567dff5e)
+![EjercicioPatronesDSS23-Página-1](https://github.com/Xiorad1412/EjerciciosDSS23_DarioSalas/assets/101283806/298f09a2-8faa-4949-b7e0-9a89905ee65c)
 
 ## Apartado b
 
@@ -61,10 +61,12 @@ Otra solución sería que el receiver fuese un parámetro del método execute() 
 
   El método executeCommand() del Invoker es llamado por un agente externo. De esto se habla en el apartado anterior (párrafo 1), en el que se debate que el proceso se puede iniciar de múltiples formas.
 
-![EjercicioPatronesDSS23-Página-2](https://github.com/Xiorad1412/EjerciciosDSS23_DarioSalas/assets/101283806/a79ef287-2fdc-4d0b-801e-b6e14b13cbba)
+![EjercicioPatronesDSS23-Página-2](https://github.com/Xiorad1412/EjerciciosDSS23_DarioSalas/assets/101283806/b5049818-a2fa-4000-a6cd-ac1f0a2b65e7)
+
 
 ## Apartado c
 
   Se ha optado por utilizar el patrón de diseño Decorator, en el que se muestra por pantalla el formulario con el método execute() de la clase FormularioConcreto, mientras que el resto de decoradores concretos llaman al execute() de su padre (un DecoratorBase) que a su vez llama al execute() de su componente (que podrá ser un decorador concreto o un FormularioConcreto). Esta cadena que hemos formado acabará ejecutando, en primer lugar, la impresión del formulario, y después cada uno de los decoradores en el orden en el que se introdujeron en la estructura recursiva.
   
-![EjercicioPatronesDSS23-Página-3](https://github.com/Xiorad1412/EjerciciosDSS23_DarioSalas/assets/101283806/125a7768-166a-4687-9fa2-fac236311255)
+![EjercicioPatronesDSS23-Página-3](https://github.com/Xiorad1412/EjerciciosDSS23_DarioSalas/assets/101283806/7b48ce4b-970b-496e-bb31-dd2d26651daf)
+
